@@ -34,3 +34,7 @@ class WaitlistOut(WaitlistBase):
     class Config:
         from_attributes = True
 
+class SmsBodyBaseNotify(BaseModel):
+    number: str
+
+
